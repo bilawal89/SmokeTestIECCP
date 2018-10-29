@@ -94,3 +94,9 @@
 17:24:33.743 [main] INFO  resources.base - Email Text Box is present on the Signup Page
 17:24:33.823 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
 17:24:33.855 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+17:48:47.170 [main] INFO  resources.base - The title of the home page is captured
+17:48:47.182 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+17:48:54.880 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+17:48:54.880 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+17:49:06.505 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+17:49:06.505 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
