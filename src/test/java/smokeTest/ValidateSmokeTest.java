@@ -3,32 +3,23 @@ package smokeTest;
 import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Random;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
-import javax.swing.text.Element;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
-import pageObjects.Footer;
+import org.testng.annotations.Test;
+
+
+
 import pageObjects.ForgetPswdPage;
 import pageObjects.Header;
 import pageObjects.HomePage;
@@ -211,6 +202,7 @@ public class ValidateSmokeTest extends base {
 		boolean insight_present;
 		try {
 			hm.getInsight_Link().click();
+			Thread.sleep(5000);
 			insight_present = true;
 			Log.info("User has clicked on the Insight tab from the Home Page");
 
@@ -266,6 +258,7 @@ public class ValidateSmokeTest extends base {
 		boolean Notification_present;
 		try {
 			hd.getNotification().click();
+			Thread.sleep(5000);
 			Notification_present = true;
 			Log.info("User has clicked on the notification link from the Home Page");
 
@@ -341,6 +334,7 @@ public class ValidateSmokeTest extends base {
 		boolean Logo_present;
 		try {
 			Np.getLogo().click();
+			Thread.sleep(5000);
 
 			Logo_present = true;
 			Log.info("User has clicked on the Logo from the Notification Page");
@@ -368,6 +362,7 @@ public class ValidateSmokeTest extends base {
 		boolean AccountMenu_present;
 		try {
 			hd.getAccountMenu().click();
+			Thread.sleep(5000);
 			AccountMenu_present = true;
 			Log.info("User has clicked on the Account menu from the Shop Page");
 
@@ -382,6 +377,7 @@ public class ValidateSmokeTest extends base {
 		boolean Logout_present;
 		try {
 			hd.getLogout().click();
+			Thread.sleep(5000);
 			Logout_present = true;
 			Log.info("User has clicked on the Logout Page from the Account Menu");
 
@@ -402,11 +398,12 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
-
+WebDriverWait wt = new WebDriverWait(driver,50);
 		boolean ForgetPswd_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
 			lp.getForget_Pswd().click();
+			
 			Log.info("User has clicked on the Forget Password Link from the Login Page");
 			ForgetPswd_present = true;
 			Thread.sleep(5000);
@@ -440,7 +437,7 @@ public class ValidateSmokeTest extends base {
 
 		}
 		Assert.assertEquals(email_present, true, "Email Address textbox is not Present in the Forget password Page");
-
+wt.until(ExpectedConditions.elementToBeClickable(fp.getSbmt_Btn()));
 		boolean SbmtBtn_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -456,6 +453,8 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(SbmtBtn_present, true, "Submit button is not Present in the Forget password Page");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(fp.getValidation_Message()));
 		boolean validation_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -480,6 +479,7 @@ public class ValidateSmokeTest extends base {
 	public void ValidateRegPage() throws InterruptedException {
 		driver.get(url);
 		LoginPage lp = new LoginPage(driver);
+		Thread.sleep(5000);
 		boolean CreateAcc_present;
 		try {
 			lp.getCreate_Account().click();
