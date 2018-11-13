@@ -379,7 +379,7 @@ public class ValidateSmokeTest extends base {
 		boolean MyProfile_present;
 		try {
 			//an.hd.getMyProfile().click().perform();
-			an.click(hd.getMyProfile()).perform();
+			an.click(hd.getMyProfile()).click().perform();
 			//hd.getMyProfile().click();
 			Thread.sleep(5000);
 			MyProfile_present = true;
