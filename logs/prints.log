@@ -1,372 +1,197 @@
-12:01:46.078 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:01:49.814 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:01:55.151 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-12:01:56.037 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-12:02:06.714 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-12:02:06.940 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-12:02:09.468 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:02:16.668 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-12:02:16.937 [main] INFO  resources.base - Change password heading is present on Change Password Page
-12:02:20.973 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-12:02:21.200 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-12:02:24.821 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-12:02:25.090 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-12:02:28.748 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-12:02:28.986 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-12:02:34.485 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:02:41.086 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-12:02:43.571 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:02:50.124 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-12:02:55.340 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-12:03:00.816 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:03:06.299 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-12:03:26.427 [main] ERROR resources.base - User not able to click on request tab on the users page
-12:03:26.427 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Requests ']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+13:29:55.277 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+13:29:55.304 [main] ERROR resources.base - Currently focused window has been closed.
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42638/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: cf2df3fe-abbb-4546-b806-1177f76a3b82
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
+*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
+13:29:55.304 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+13:29:55.304 [main] ERROR resources.base - Currently focused window has been closed.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
+*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
+13:29:55.346 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+13:29:55.346 [main] ERROR resources.base - Currently focused window has been closed.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
+*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
+13:29:55.368 [main] ERROR resources.base - User not able to click on request tab on the users page
+13:29:55.368 [main] ERROR resources.base - Currently focused window has been closed.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
 *** Element info: {Using=xpath, value=//a[text()='Requests ']}
-12:03:46.530 [main] ERROR resources.base - User not able to click on Invites tab on the users page
-12:03:46.530 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Invites ']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+13:29:55.396 [main] ERROR resources.base - User not able to click on Invites tab on the users page
+13:29:55.396 [main] ERROR resources.base - Currently focused window has been closed.
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42638/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: cf2df3fe-abbb-4546-b806-1177f76a3b82
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
 *** Element info: {Using=xpath, value=//a[text()='Invites ']}
-12:03:49.106 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:03:55.877 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:04:16.026 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-12:04:16.026 [main] ERROR resources.base - Unable to find element with xpath == //a[@id='forgetUrl']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+13:29:55.440 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+13:29:55.440 [main] ERROR resources.base - Currently focused window has been closed.
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42638/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: cf2df3fe-abbb-4546-b806-1177f76a3b82
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
+*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
+13:29:55.440 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+13:29:55.440 [main] ERROR resources.base - Currently focused window has been closed.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:16971/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 672ddcc0-4051-433c-af6c-67f1d2b9cf8f
 *** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-12:04:38.111 [main] ERROR resources.base - User not able to find Create Account Link on the Login Page , hence not able to click it
-12:04:38.111 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Create Account']
+13:30:11.797 [main] ERROR resources.base - User is already Login to the application
+13:30:14.874 [main] INFO  resources.base - The title of the home page is captured
+13:30:14.874 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+13:30:18.679 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+13:30:18.679 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+13:30:23.056 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+13:30:23.056 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+13:30:23.176 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+13:30:23.262 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+13:30:23.331 [main] INFO  resources.base - Calendar link is present on the Manage Page
+13:30:23.409 [main] INFO  resources.base - Subscription link is present on the Manage Page
+13:30:27.750 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+13:30:27.796 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+13:30:27.891 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+13:30:27.962 [main] INFO  resources.base - Report Link is present on the Insight Page
+13:30:31.371 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+13:30:31.371 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+13:30:31.478 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+13:30:31.554 [main] INFO  resources.base - Notification heading is present on the Notifications page
+13:30:31.642 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+13:30:31.719 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+13:30:38.493 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+13:30:38.517 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+13:30:43.040 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:30:48.475 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+13:30:48.738 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+13:30:57.208 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+13:30:57.463 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+13:30:59.948 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:31:46.023 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+13:31:46.295 [main] INFO  resources.base - Change password heading is present on Change Password Page
+13:31:48.766 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+13:31:52.142 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+13:31:52.365 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+13:31:55.763 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+13:31:55.984 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+13:32:01.469 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:33:22.635 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+13:33:25.145 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:33:25.382 [main] ERROR resources.base - User not able to click on the Address of Use Link from the Account Menu
+13:33:25.382 [main] ERROR resources.base - Element is not displayed
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19987/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6c96992b-ff8d-46b3-a9da-27a928876ddf
+13:33:27.608 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:35:37.894 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+13:35:58.022 [main] ERROR resources.base - User not able to click on request tab on the users page
+13:35:58.022 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Requests ']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42638/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: cf2df3fe-abbb-4546-b806-1177f76a3b82
-*** Element info: {Using=xpath, value=//a[text()='Create Account']}
-12:05:45.554 [main] ERROR resources.base - User is already Login to the application
-12:05:48.641 [main] INFO  resources.base - The title of the home page is captured
-12:05:48.641 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-12:05:52.888 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-12:05:52.888 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-12:05:57.547 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-12:05:57.547 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-12:05:57.567 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-12:05:57.681 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-12:05:57.769 [main] INFO  resources.base - Calendar link is present on the Manage Page
-12:05:57.851 [main] INFO  resources.base - Subscription link is present on the Manage Page
-12:06:02.447 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-12:06:02.537 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-12:06:02.611 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-12:06:02.690 [main] INFO  resources.base - Report Link is present on the Insight Page
-12:06:06.262 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-12:06:06.262 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-12:06:06.365 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-12:06:06.439 [main] INFO  resources.base - Notification heading is present on the Notifications page
-12:06:06.529 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-12:06:06.600 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-12:06:13.735 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-12:06:13.759 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:06:17.778 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:06:23.312 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-12:06:23.566 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-12:06:32.156 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-12:06:32.344 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-12:06:34.838 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:06:42.007 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-12:06:42.253 [main] INFO  resources.base - Change password heading is present on Change Password Page
-12:06:46.341 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-12:06:46.616 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-12:06:50.177 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-12:06:50.439 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-12:06:54.161 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-12:06:54.348 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-12:06:59.844 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:07:06.465 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-12:07:08.976 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:07:12.528 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-12:07:14.771 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-12:07:17.275 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:07:19.735 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-12:07:36.544 [main] ERROR resources.base - User not able to click on request tab on the users page
-12:07:36.544 [main] ERROR resources.base - Element is not displayed
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:26152/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f6804e97-021c-4975-b0fe-71a374d86b13
-12:07:39.118 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
-12:07:39.246 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
-12:07:41.784 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:07:45.100 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:07:45.969 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-12:07:51.121 [main] INFO  resources.base - Email textbox is present on the Forget password page
-12:07:55.236 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-12:07:55.303 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-12:07:59.244 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-12:07:59.269 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-12:10:43.436 [main] INFO  resources.base - The title of the home page is captured
-12:10:43.436 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-12:10:47.379 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-12:10:47.379 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-12:10:52.009 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-12:10:52.009 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-12:10:52.028 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-12:10:52.140 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-12:10:52.208 [main] INFO  resources.base - Calendar link is present on the Manage Page
-12:10:52.296 [main] INFO  resources.base - Subscription link is present on the Manage Page
-12:10:56.910 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-12:10:56.937 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-12:10:57.022 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-12:10:57.094 [main] INFO  resources.base - Report Link is present on the Insight Page
-12:11:00.759 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-12:11:00.759 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-12:11:00.859 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-12:11:00.906 [main] INFO  resources.base - Notification heading is present on the Notifications page
-12:11:00.997 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-12:11:01.090 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-12:11:07.985 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-12:11:08.005 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:11:12.033 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:11:17.547 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-12:11:17.786 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-12:11:26.447 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-12:11:26.677 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-12:11:29.156 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:11:36.200 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-12:11:36.449 [main] INFO  resources.base - Change password heading is present on Change Password Page
-12:11:40.092 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-12:11:40.383 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-12:11:43.952 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-12:11:44.200 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-12:11:47.810 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-12:11:48.064 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-12:11:53.564 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:12:00.102 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-12:12:02.607 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:12:06.212 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-12:12:08.450 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-12:12:10.906 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:12:12.998 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-12:12:33.305 [main] ERROR resources.base - User not able to click on request tab on the users page
-12:12:33.305 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Requests ']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:2028/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 6a719b48-2fe1-4c9f-9d3d-b7e94f57b711
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19987/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6c96992b-ff8d-46b3-a9da-27a928876ddf
 *** Element info: {Using=xpath, value=//a[text()='Requests ']}
-12:12:53.390 [main] ERROR resources.base - User not able to click on Invites tab on the users page
-12:12:53.390 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Invites ']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+13:35:58.070 [main] ERROR resources.base - User not able to click on Invites tab on the users page
+13:35:58.070 [main] ERROR resources.base - Currently focused window has been closed.
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:2028/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 6a719b48-2fe1-4c9f-9d3d-b7e94f57b711
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19987/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6c96992b-ff8d-46b3-a9da-27a928876ddf
 *** Element info: {Using=xpath, value=//a[text()='Invites ']}
-12:12:55.587 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:12:58.717 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:13:18.763 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-12:13:18.763 [main] ERROR resources.base - Unable to find element with xpath == //a[@id='forgetUrl']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+13:35:58.096 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+13:35:58.096 [main] ERROR resources.base - Currently focused window has been closed.
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:2028/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 6a719b48-2fe1-4c9f-9d3d-b7e94f57b711
-*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-12:13:59.972 [main] ERROR resources.base - User is already Login to the application
-12:14:03.004 [main] INFO  resources.base - The title of the home page is captured
-12:14:03.004 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-12:14:07.046 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-12:14:07.046 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-12:14:11.682 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-12:14:11.682 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-12:14:11.708 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-12:14:11.814 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-12:14:11.889 [main] INFO  resources.base - Calendar link is present on the Manage Page
-12:14:11.964 [main] INFO  resources.base - Subscription link is present on the Manage Page
-12:14:16.541 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-12:14:16.567 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-12:14:16.636 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-12:14:16.739 [main] INFO  resources.base - Report Link is present on the Insight Page
-12:14:20.396 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-12:14:20.396 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-12:14:20.484 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-12:14:20.556 [main] INFO  resources.base - Notification heading is present on the Notifications page
-12:14:20.645 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-12:14:20.734 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-12:14:27.601 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-12:14:27.624 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:14:31.662 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:14:37.190 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-12:14:37.451 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-12:14:46.090 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-12:14:46.338 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-12:14:48.851 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:14:55.933 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-12:14:56.133 [main] INFO  resources.base - Change password heading is present on Change Password Page
-12:14:59.730 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-12:14:59.985 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-12:15:03.609 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-12:15:03.847 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-12:15:07.552 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-12:15:07.775 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-12:15:13.294 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:15:19.836 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-12:15:22.385 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:15:25.979 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-12:15:28.259 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-12:15:30.735 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:15:33.236 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-12:15:38.472 [main] INFO  resources.base - Tabs are appearing on the Users Page
-12:15:40.947 [main] INFO  resources.base - User has clicked on the request tab on the users page
-12:15:41.071 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
-12:15:43.523 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
-12:15:43.640 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
-12:15:46.116 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:15:48.587 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:16:08.842 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-12:16:08.842 [main] ERROR resources.base - Unable to find element with xpath == //a[@id='forgetUrl']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19987/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6c96992b-ff8d-46b3-a9da-27a928876ddf
+*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
+13:35:58.123 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+13:35:58.123 [main] ERROR resources.base - Currently focused window has been closed.
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5576/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 449839e9-d8c6-4f5f-9592-69338c2b2914
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19987/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6c96992b-ff8d-46b3-a9da-27a928876ddf
 *** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-12:16:57.599 [main] ERROR resources.base - User is already Login to the application
-12:17:00.679 [main] INFO  resources.base - The title of the home page is captured
-12:17:00.679 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-12:17:04.775 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-12:17:04.775 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-12:17:09.475 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-12:17:09.475 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-12:17:09.497 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-12:17:09.568 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-12:17:09.648 [main] INFO  resources.base - Calendar link is present on the Manage Page
-12:17:09.711 [main] INFO  resources.base - Subscription link is present on the Manage Page
-12:17:14.305 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-12:17:14.329 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-12:17:14.490 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-12:17:14.566 [main] INFO  resources.base - Report Link is present on the Insight Page
-12:17:18.127 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-12:17:18.127 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-12:17:18.224 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-12:17:18.318 [main] INFO  resources.base - Notification heading is present on the Notifications page
-12:17:18.398 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-12:17:18.480 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-12:17:25.523 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-12:17:25.547 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:17:29.675 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:17:35.180 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-12:17:35.423 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-12:17:44.101 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-12:17:44.342 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-12:17:46.827 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:17:53.884 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-12:17:54.099 [main] INFO  resources.base - Change password heading is present on Change Password Page
-12:17:57.805 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-12:17:58.044 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-12:18:01.587 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-12:18:01.824 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-12:18:05.462 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-12:18:05.658 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-12:18:11.180 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:18:17.744 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-12:18:20.262 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:18:23.792 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-12:18:26.031 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-12:18:28.507 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:18:30.982 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-12:18:36.183 [main] INFO  resources.base - Tabs are appearing on the Users Page
-12:18:38.595 [main] INFO  resources.base - User has clicked on the request tab on the users page
-12:18:38.717 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
-12:18:41.166 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
-12:18:41.303 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
-12:18:43.760 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:18:46.226 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:18:47.063 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-12:18:52.201 [main] INFO  resources.base - Email textbox is present on the Forget password page
-12:18:56.283 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-12:18:56.371 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-12:19:01.104 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-12:19:01.127 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-12:19:01.210 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-12:19:01.633 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-12:19:01.710 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
-12:21:47.893 [main] INFO  resources.base - The title of the home page is captured
-12:21:47.893 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-12:21:51.776 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-12:21:51.776 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-12:21:56.081 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-12:21:56.081 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-12:21:56.107 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-12:21:56.198 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-12:21:56.296 [main] INFO  resources.base - Calendar link is present on the Manage Page
-12:21:56.374 [main] INFO  resources.base - Subscription link is present on the Manage Page
-12:22:01.030 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-12:22:01.049 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-12:22:01.153 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-12:22:01.245 [main] INFO  resources.base - Report Link is present on the Insight Page
-12:22:04.846 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-12:22:04.846 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-12:22:04.939 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-12:22:04.992 [main] INFO  resources.base - Notification heading is present on the Notifications page
-12:22:05.063 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-12:22:05.145 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-12:22:12.331 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-12:22:12.354 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:22:16.744 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:22:22.215 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-12:22:22.495 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-12:22:31.134 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-12:22:31.340 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-12:22:33.795 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:22:40.800 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-12:22:41.034 [main] INFO  resources.base - Change password heading is present on Change Password Page
-12:22:44.639 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-12:22:44.843 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-12:22:48.373 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-12:22:48.587 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-12:22:52.226 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-12:22:52.443 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-12:22:57.981 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:23:04.549 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-12:23:07.071 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:23:10.609 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-12:23:12.883 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-12:23:15.341 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:23:17.833 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-12:23:23.069 [main] INFO  resources.base - Tabs are appearing on the Users Page
-12:23:25.576 [main] INFO  resources.base - User has clicked on the request tab on the users page
-12:23:25.720 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
-12:23:28.128 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
-12:23:28.271 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
-12:23:30.763 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:23:33.241 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:23:34.293 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-12:23:39.423 [main] INFO  resources.base - Email textbox is present on the Forget password page
-12:23:43.547 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-12:23:43.649 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-12:23:48.292 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-12:23:48.320 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-12:23:48.393 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-12:23:48.861 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-12:23:48.953 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+13:36:36.151 [main] ERROR resources.base - User is already Login to the application
+13:36:39.213 [main] INFO  resources.base - The title of the home page is captured
+13:36:39.213 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+13:36:43.062 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+13:36:43.062 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+13:36:47.477 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+13:36:47.477 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+13:36:47.497 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+13:36:47.586 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+13:36:47.655 [main] INFO  resources.base - Calendar link is present on the Manage Page
+13:36:47.747 [main] INFO  resources.base - Subscription link is present on the Manage Page
+13:36:52.079 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+13:36:52.170 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+13:36:52.244 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+13:36:52.313 [main] INFO  resources.base - Report Link is present on the Insight Page
+13:36:55.641 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+13:36:55.641 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+13:36:55.745 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+13:36:55.811 [main] INFO  resources.base - Notification heading is present on the Notifications page
+13:36:55.899 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+13:36:55.979 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+13:37:02.725 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+13:37:02.749 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+13:37:07.268 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:37:12.777 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+13:37:13.029 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+13:37:21.392 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+13:37:21.635 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+13:37:24.169 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:37:29.705 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+13:37:29.904 [main] INFO  resources.base - Change password heading is present on Change Password Page
+13:37:33.304 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+13:37:33.561 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
+13:37:36.863 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+13:37:37.082 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+13:37:40.527 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+13:37:40.796 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+13:37:46.335 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:37:51.795 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+13:37:54.310 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:37:56.826 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+13:37:59.065 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+13:38:01.575 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:38:04.084 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+13:38:09.299 [main] INFO  resources.base - Tabs are appearing on the Users Page
+13:38:11.757 [main] INFO  resources.base - User has clicked on the request tab on the users page
+13:38:11.877 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+13:38:14.328 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+13:38:14.436 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+13:38:16.762 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:38:19.243 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+13:38:20.097 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+13:38:25.219 [main] INFO  resources.base - Email textbox is present on the Forget password page
+13:38:29.290 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+13:38:29.363 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+13:38:33.815 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+13:38:33.837 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+13:38:33.926 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+13:38:34.394 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+13:38:34.455 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page

@@ -359,10 +359,12 @@ public class ValidateSmokeTest extends base {
 		boolean AccountMenu_present;
 		try {
 			an.moveToElement(hd.getAccountMenu()).clickAndHold().perform();
-			Thread.sleep(1000);
-			an.moveToElement(hd.getMyProfile()).click().build().perform();
+			
+			
+			//Thread.sleep(1000);
+			//an.moveToElement(hd.getMyProfile()).click().build().perform();
 			//hd.getAccountMenu().click();
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			AccountMenu_present = true;
 			Log.info("User has clicked on the Account menu from the Shop Page");
 
@@ -376,7 +378,7 @@ public class ValidateSmokeTest extends base {
 
 		boolean MyProfile_present;
 		try {
-			an.moveToElement(hd.getMyProfile()).clickAndHold().perform();
+			an.moveToElement(hd.getMyProfile()).click().perform();
 			//hd.getMyProfile().click();
 			Thread.sleep(5000);
 			MyProfile_present = true;
@@ -480,8 +482,8 @@ Actions an = new Actions(driver);
 
 		boolean ChangePswd_present;
 		try {
-			an.moveToElement(hd.getChangePassword()).clickAndHold().perform();
-			hd.getChangePassword().click();
+			an.moveToElement(hd.getChangePassword()).click().perform();
+			//hd.getChangePassword().click();
 			Thread.sleep(5000);
 			ChangePswd_present = true;
 			Log.info("User has clicked on the Change Password Link from the Account Menu");
@@ -674,7 +676,8 @@ Actions an = new Actions(driver);
 
 		boolean SetNotification_present;
 		try {
-			hd.getSetNotifications().click();
+			an.moveToElement(hd.getSetNotifications()).click().perform();
+			//hd.getSetNotifications().click();
 			Thread.sleep(5000);
 			SetNotification_present = true;
 			Log.info("User has clicked on the Set Notification Link from the Account Menu");
@@ -718,7 +721,8 @@ Actions an = new Actions(driver);
 
 		boolean Address_present;
 		try {
-			hd.getAddress().click();
+			an.moveToElement(hd.getAddress()).click().perform();
+			//hd.getAddress().click();
 			Thread.sleep(2000);
 			Address_present = true;
 			Log.info("User has clicked on the Address of Use Link from the Account Menu");
