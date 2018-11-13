@@ -364,7 +364,7 @@ public class ValidateSmokeTest extends base {
 			//Thread.sleep(1000);
 			//an.moveToElement(hd.getMyProfile()).click().build().perform();
 			//hd.getAccountMenu().click();
-			Thread.sleep(4000);
+			//Thread.sleep(4000);
 			AccountMenu_present = true;
 			Log.info("User has clicked on the Account menu from the Shop Page");
 
@@ -467,7 +467,7 @@ Actions an = new Actions(driver);
 	
 		boolean AccountMenu_present;
 		try {
-			an.moveToElement(hd.getAccountMenu()).clickAndHold().perform();
+			an.moveToElement(hd.getAccountMenu()).perform();
 			Thread.sleep(2000);
 			AccountMenu_present = true;
 			Log.info("User has clicked on the Account menu from the Shop Page");

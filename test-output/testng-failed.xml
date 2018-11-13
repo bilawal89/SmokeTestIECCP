@@ -6,16 +6,21 @@
       <class name="smokeTest.ValidateSmokeTest">
         <methods>
           <include name="ValidateAccountSettings"/>
-          <include name="ValidateSetNotifications"/>
-          <include name="ValidateUsersPage"/>
+          <include name="ValidateDomainLink"/>
+          <include name="ValidateChangePassword"/>
+          <include name="ValidateMyProfile"/>
           <include name="ValidateRegPage"/>
           <include name="ValidateForgetPswd"/>
-          <include name="ValidateLogin"/>
           <include name="closebrowser"/>
+          <include name="ValidateCatalogRestriction"/>
           <include name="ValidateAddressPage"/>
           <include name="ValidateInviteTab"/>
-          <include name="ValidateLogout"/>
           <include name="ValidateRequestTab"/>
+          <include name="ValidateEditProfile"/>
+          <include name="ValidateSetNotifications"/>
+          <include name="ValidateUsersPage"/>
+          <include name="ValidateLogin"/>
+          <include name="ValidateLogout"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->
     </classes>
