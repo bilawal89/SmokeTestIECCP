@@ -1,311 +1,75 @@
-13:46:28.194 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:46:28.222 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:15701/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39f2cedd-c608-4f32-a452-4916a73c2c03
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:46:28.222 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-13:46:28.222 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '192.168.56.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:15701/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39f2cedd-c608-4f32-a452-4916a73c2c03
-*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-13:51:30.235 [main] ERROR resources.base - User is already Login to the application
-13:51:33.286 [main] INFO  resources.base - The title of the home page is captured
-13:51:33.286 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-13:51:36.709 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-13:51:36.709 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-13:51:40.670 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-13:51:40.670 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-13:51:40.695 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-13:51:40.765 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-13:51:40.837 [main] INFO  resources.base - Calendar link is present on the Manage Page
-13:51:40.929 [main] INFO  resources.base - Subscription link is present on the Manage Page
-13:51:45.235 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-13:51:45.259 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-13:51:45.351 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-13:51:45.414 [main] INFO  resources.base - Report Link is present on the Insight Page
-13:51:48.835 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-13:51:48.835 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-13:51:48.904 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-13:51:48.969 [main] INFO  resources.base - Notification heading is present on the Notifications page
-13:51:49.066 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-13:51:49.139 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-13:51:55.573 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-13:51:55.619 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-13:52:00.063 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:52:05.433 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-13:52:25.591 [main] ERROR resources.base - User not able to click on the Edit Profile button on My Profile Page
-13:52:25.591 [main] ERROR resources.base - Unable to find element with xpath == //a[@class='btn edit']
+14:10:40.543 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:14:18.422 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+14:14:20.750 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:21:51.357 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+14:21:53.777 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:22:37.823 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+14:22:58.137 [main] ERROR resources.base - User not able to click on request tab on the users page
+14:22:58.137 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Requests ']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=//a[@class='btn edit']}
-13:52:28.042 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:52:33.535 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-13:52:53.971 [main] ERROR resources.base - User not able to click on the Account Setting from the left navigation menu
-13:52:53.971 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Account Settings']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=//a[text()='Account Settings']}
-13:52:54.226 [main] ERROR resources.base - User not able to click on the Catalog Restrictions link from the left navigation menu
-13:52:54.226 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=//a[text()='Catalog Restrictions']}
-13:52:54.238 [main] ERROR resources.base - User not able to click on the Domain Link link from the left navigation menu
-13:52:54.238 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=//a[text()='Domains']}
-13:52:54.282 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:52:54.282 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:52:54.282 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:52:54.282 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:52:54.305 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:52:54.305 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:52:54.330 [main] ERROR resources.base - User not able to click on request tab on the users page
-13:52:54.330 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27685/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: dab43bee-7b58-4949-872c-ab99e0d2351a
 *** Element info: {Using=xpath, value=//a[text()='Requests ']}
-13:52:54.354 [main] ERROR resources.base - User not able to click on Invites tab on the users page
-13:52:54.354 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=//a[text()='Invites ']}
-13:52:54.380 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:52:54.380 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:52:54.430 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-13:52:54.430 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:33049/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 29eaf085-4480-48ed-9609-1876d22add80
-*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-13:53:42.781 [main] ERROR resources.base - User is already Login to the application
-13:53:45.829 [main] INFO  resources.base - The title of the home page is captured
-13:53:45.829 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-13:53:51.385 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-13:53:51.385 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-13:53:56.593 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-13:53:56.593 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-13:53:56.705 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-13:53:56.800 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-13:53:56.872 [main] INFO  resources.base - Calendar link is present on the Manage Page
-13:53:56.965 [main] INFO  resources.base - Subscription link is present on the Manage Page
-13:54:03.048 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-13:54:03.079 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-13:54:03.183 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-13:54:03.255 [main] INFO  resources.base - Report Link is present on the Insight Page
-13:54:07.982 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-13:54:07.982 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-13:54:08.070 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-13:54:08.143 [main] INFO  resources.base - Notification heading is present on the Notifications page
-13:54:08.235 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-13:54:08.304 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-13:54:15.410 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-13:54:15.457 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-13:54:20.014 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:55:12.245 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-13:55:32.419 [main] ERROR resources.base - User not able to click on the Edit Profile button on My Profile Page
-13:55:32.419 [main] ERROR resources.base - Unable to find element with xpath == //a[@class='btn edit']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[@class='btn edit']}
-13:55:34.910 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:55:40.441 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-13:56:00.576 [main] ERROR resources.base - User not able to click on the Account Setting from the left navigation menu
-13:56:00.576 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Account Settings']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[text()='Account Settings']}
-13:56:20.639 [main] ERROR resources.base - User not able to click on the Catalog Restrictions link from the left navigation menu
-13:56:20.639 [main] ERROR resources.base - Unable to find element with xpath == //a[text()='Catalog Restrictions']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[text()='Catalog Restrictions']}
-13:56:20.662 [main] ERROR resources.base - User not able to click on the Domain Link link from the left navigation menu
-13:56:20.662 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[text()='Domains']}
-13:56:20.712 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:56:20.712 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:56:20.772 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:56:20.772 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:56:20.796 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:56:20.796 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:56:20.818 [main] ERROR resources.base - User not able to click on request tab on the users page
-13:56:20.818 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[text()='Requests ']}
-13:56:20.846 [main] ERROR resources.base - User not able to click on Invites tab on the users page
-13:56:20.846 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[text()='Invites ']}
-13:56:20.871 [main] ERROR resources.base - User not able to find the account menu on the Home Page
-13:56:20.871 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=(//span[@class='account-title'])[1]}
-13:56:20.944 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-13:56:20.944 [main] ERROR resources.base - Currently focused window has been closed.
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DESKTOP-B75F35K', ip: '169.254.187.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8195/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c00a8290-bd97-457a-b534-02c88ce9e89e
-*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-13:57:19.549 [main] ERROR resources.base - User is already Login to the application
-13:57:22.598 [main] INFO  resources.base - The title of the home page is captured
-13:57:22.598 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-13:57:26.265 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-13:57:26.265 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-13:57:30.155 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-13:57:30.155 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-13:57:30.177 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-13:57:30.291 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-13:57:30.358 [main] INFO  resources.base - Calendar link is present on the Manage Page
-13:57:30.424 [main] INFO  resources.base - Subscription link is present on the Manage Page
-13:57:34.830 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-13:57:34.850 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-13:57:34.938 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-13:57:35.013 [main] INFO  resources.base - Report Link is present on the Insight Page
-13:57:38.410 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-13:57:38.410 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-13:57:38.482 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-13:57:38.564 [main] INFO  resources.base - Notification heading is present on the Notifications page
-13:57:38.642 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-13:57:38.715 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-13:57:45.244 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-13:57:45.289 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-13:57:45.807 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:57:51.377 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
-13:57:51.619 [main] INFO  resources.base - My Profile heading is present on My Profile Page
-13:58:00.006 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
-13:58:00.272 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
-13:58:02.778 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:58:08.269 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
-13:58:08.515 [main] INFO  resources.base - Change password heading is present on Change Password Page
-13:58:11.928 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
-13:58:12.171 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
-13:58:15.467 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
-13:58:15.707 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
-13:58:19.170 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
-13:58:19.380 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
-13:58:24.884 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:58:30.421 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
-13:58:32.937 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:58:35.457 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
-13:58:37.735 [main] INFO  resources.base - Address of Use heading is present on the Address Page
-13:58:40.237 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:58:42.768 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
-13:58:48.012 [main] INFO  resources.base - Tabs are appearing on the Users Page
-13:58:50.444 [main] INFO  resources.base - User has clicked on the request tab on the users page
-13:58:50.589 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
-13:58:53.045 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
-13:58:53.208 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
-13:58:55.665 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-13:58:58.162 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-13:58:59.018 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-13:59:04.158 [main] INFO  resources.base - Email textbox is present on the Forget password page
-13:59:08.232 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-13:59:08.296 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-13:59:12.753 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-13:59:12.778 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-13:59:12.869 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-13:59:13.258 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-13:59:13.304 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+14:24:32.121 [main] ERROR resources.base - User is already Login to the application
+14:24:35.186 [main] INFO  resources.base - The title of the home page is captured
+14:24:35.186 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+14:24:38.893 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+14:24:38.893 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+14:24:42.864 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+14:24:42.864 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+14:24:42.885 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+14:24:42.987 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+14:24:43.054 [main] INFO  resources.base - Calendar link is present on the Manage Page
+14:24:43.126 [main] INFO  resources.base - Subscription link is present on the Manage Page
+14:24:47.444 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+14:24:47.465 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+14:24:47.544 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+14:24:47.610 [main] INFO  resources.base - Report Link is present on the Insight Page
+14:24:50.983 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+14:24:50.983 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+14:24:51.081 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+14:24:51.125 [main] INFO  resources.base - Notification heading is present on the Notifications page
+14:24:51.197 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+14:24:51.289 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+14:24:57.878 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+14:24:57.899 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+14:24:58.396 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:25:03.986 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+14:25:04.217 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+14:25:12.650 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+14:25:12.878 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+14:25:15.387 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:25:20.930 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+14:25:21.160 [main] INFO  resources.base - Change password heading is present on Change Password Page
+14:25:24.583 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+14:25:24.828 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
+14:25:28.167 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+14:25:28.362 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+14:25:31.802 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+14:25:32.059 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+14:25:37.588 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:25:43.130 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+14:25:45.650 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:25:48.182 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+14:25:50.470 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+14:25:52.936 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:25:55.408 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+14:26:00.639 [main] INFO  resources.base - Tabs are appearing on the Users Page
+14:26:03.100 [main] INFO  resources.base - User has clicked on the request tab on the users page
+14:26:03.239 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+14:26:05.636 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+14:26:05.791 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+14:26:08.331 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+14:26:10.827 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+14:26:11.687 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+14:26:16.846 [main] INFO  resources.base - Email textbox is present on the Forget password page
+14:26:20.948 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+14:26:21.043 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+14:26:25.561 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+14:26:25.583 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+14:26:25.669 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+14:26:26.111 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+14:26:26.177 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
