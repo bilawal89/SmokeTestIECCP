@@ -48,7 +48,7 @@ By Address=By.xpath("(//a[text()='Address Of Use'])[1]");
 
 //By Users=By.xpath("//div[@class='account-menu']//a[text()='Users']");
 
-By Users=By.xpath("(//a[text()='Users'])[1]");
+By Users=By.xpath("(//a[text()='User Management'])[1]");
 
 
 public WebElement getMenu_List()
