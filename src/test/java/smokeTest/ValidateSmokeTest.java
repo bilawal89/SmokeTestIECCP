@@ -47,7 +47,7 @@ public class ValidateSmokeTest extends base {
 		String TitleHome = driver.getTitle();
 		Log.info("The title of the home page is captured");
 
-		Assert.assertEquals(TitleHome, "Shop - CCP", "User is not being able to Login to the application");
+		Assert.assertEquals(TitleHome, "Marketplace - CCP", "User is not being able to Login to the application");
 		Log.info("The title of the Shop page is Verified Successfully");
 	}
 
@@ -345,7 +345,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Logo_present, true, "Logo is not Present in the home Dashboard");
 
 		String Shop_Titleact = driver.getTitle().trim();
-		String Shop_Titlexp = "Shop - CCP";
+		String Shop_Titlexp = "Marketplace - CCP";
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "Clicking on Logo is not redirecting to the Shop Page");
 		Log.info("After clicking on logo, user has roue to the Homepage");
 	}
@@ -359,10 +359,11 @@ public class ValidateSmokeTest extends base {
 		
 		boolean AccountMenu_present;
 		try {
-			an.moveToElement(hd.getAccountMenu()).clickAndHold().perform();
+			//an.moveToElement(hd.getAccountMenu()).clickAndHold().perform();
+			hd.getAccountMenu().click();
 			
 			
-			//Thread.sleep(1000);
+			Thread.sleep(2000);
 			//an.moveToElement(hd.getMyProfile()).click().build().perform();
 			//hd.getAccountMenu().click();
 			//Thread.sleep(4000);
@@ -380,7 +381,8 @@ public class ValidateSmokeTest extends base {
 		boolean MyProfile_present;
 		try {
 			//an.hd.getMyProfile().click().perform();
-			an.click(hd.getMyProfile()).click().perform();
+			hd.getMyProfile().click();
+			//an.click(hd.getMyProfile()).click().perform();
 			//hd.getMyProfile().click();
 			Thread.sleep(5000);
 			MyProfile_present = true;
@@ -522,7 +524,7 @@ Actions an = new Actions(driver);
 
 	}
 
-	@Test(priority = 9, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 9, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateAccountSettings() throws InterruptedException {
 
@@ -699,7 +701,7 @@ Actions an = new Actions(driver);
 				"User not being able to reach Notification Page");
 	}
 
-	@Test(priority = 13, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 13, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateAddressPage() throws InterruptedException {
 		Actions an = new Actions (driver);
